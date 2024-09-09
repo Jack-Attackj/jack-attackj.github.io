@@ -1,46 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .mainbloc {
-    background-color:rgb(255, 239, 201);
-    border-style: solid;
-    border-width: 0.6vw;
-}
-            
-.featurebloc {
-  background-color:rgb(255, 239, 201);
-  border-style: none solid solid solid;
-  border-width: 0.6vw;
-}
-            
-.flexed {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-            
-.text {
-  display: flex;
-  align-items: center;
   flex-direction: column;
-  margin-bottom:0;
-  margin : 0;
-  padding-top:0;
+  width: 60vw;
+  height: 100vh;
 }
-            
-.image {
-  margin-bottom:0;
-  margin : 0;
-  padding-top:0;
+
+.mainheader {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 0.5vh solid black;
 }
-            
-h1 {
-  font-size: 8vw;
+
+.businesscard {
+  background: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 0.5vh solid black;
 }
-            
-hr {
-  display: block;
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: double;
-  border-width: 0.1vw;
+
+.headshot {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 5vw;
+  width: 15vw;
+  height: 15vw;
+  object-fit: contain;
+}
+
+.basicinfo {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5vw;
+  padding-top: 2vh;
+}
+
+.toplinks {
+  padding: 0% 5%;
+}
+
+.rowoflinks {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-left: 1vh;
+}
+
+.about {
+  background: lightcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5vh solid black;
+  padding: 1vh;
+}
+
+h2 {
+  margin: 0;
+  padding: 1vh;
+  font-size: 1.25vw;
+}
+
+h3 {
+  margin: 0;
+  padding: 1vh;
+  font-size: 1vw;
+}
+
+h4 {
+  padding-right: 1.5vw;
+  font-size: 0.8vw;
+}
+
+i {
+  vertical-align: middle;
 }
